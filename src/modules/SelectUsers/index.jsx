@@ -2,7 +2,7 @@ import React from 'react'
 
 const SelecUsers = props => {
     const {users} = props;
-    const selectedUsersList = users.filter((u) => u.isSelected)
+    const selectedUsersList = users.filter(u => u.isSelected)
     return(
         <ul>
             {selectedUsersList.map((u)=>{
